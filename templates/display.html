@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ collection }}</title>
+    <style>
+
+        #table1 {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+    </style>
+    <script>document.addEventListener("keyup", function(e){if(e.keyCode== 82) window.location.reload();});</script>
+</head>
+<body>
+<center><h3>{{rec["title"]}}</h3></center>
+<table>
+    <tr><td><h3>{{ left }}:{{ rec["_id"]}}</h3></td></tr>
+    <tr>
+
+        <a href="{{rec['link']}}" ><img src="{{rec['img']}}"></a>
+
+    </tr>
+
+
+
+</br>
+<tr>
+    <td><button value="Refresh Page" style="height:70px; width: 100%;" onClick="window.location.reload()">Refresh Button</button></td>
+    </br>
+</br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+<td><button value="Left Page" style="height:70px; width: 100%;" onClick="location.href='/reboot'">Left Button</button></td>
+</tr>
+
+
+</table>
+
+
+
+
+
+</body>
+</html>

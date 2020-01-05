@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyYoutube</title>
+</head>
+<body>
+
+<center>
+
+    <form method="post" action="{{ url_for('consumer') }}" >
+
+    <table>
+
+        <tr>
+            <td><input type="radio" name="viewed" value="unViewed" checked>unViewed</td>
+            <td><input type="radio" name="viewed" value="all" >All</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <tr></tr>
+            <td>SearchTerm:</td>
+            <td><input name="query" type="text" size="10"></td>
+
+        <tr></tr><tr></tr><tr></tr><tr></tr>
+        </tr>
+
+
+
+
+    </table>
+
+
+    <input type="submit" value="Search" />
+
+    </form>
+
+
+
+
+
+</center>
+
+
+
+</body>
+</html>
